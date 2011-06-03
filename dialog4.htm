@@ -1,0 +1,45 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>Embed a Udemy Course</title>
+	<script type="text/javascript" src="/wp-includes/js/tinymce/tiny_mce_popup.js"></script>
+	<script type="text/javascript" src="js/dialog.js"></script>
+</head>
+<body>
+
+<form onsubmit="ExampleDialog.insert();return false;" action="#">
+	<fieldset>
+		<legend>Style and Embed Your Course</legend>
+		<p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Course URL:</p>
+		<input style="padding-bottom: 0px; margin-bottom: 3px; width: 150px;" type="text" id="course-url"/>
+		<br/>
+        <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Custom Styles:</p>		
+        <input style="margin-bottom: 10px; margin-left: 3px; margin-right: 0px; margin-top: 3px;" type="checkbox" id="1234"/>	
+        <br/>		
+		<div id="styles" style="display: none;">
+		    <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Border Size:</p>
+		    <input style="padding-bottom: 0px; margin-bottom: 2px; width: 75px;" type="text" id="border-size"/>
+		    <br/>
+		    <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Border Color:</p>
+		    <input style="padding-bottom: 0px; margin-bottom: 2px; width: 75px;" type="text" id="border-color"/>
+		    <br/>
+		    <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Border Radius:</p>
+		    <input style="padding-bottom: 0px; margin-bottom: 2px; width: 75px;" type="text" id="border-radius"/>
+		    <br/>
+		    <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Float:</p>
+		    <input style="padding-bottom: 0px; margin-bottom: 2px; width: 75px;" type="text" id="float"/>
+		    <br/>
+		    <p style="margin-bottom: 0px; margin-top: 3px; width: 99px; float: left">Margin:</p>
+		    <input style="padding-bottom: 0px; margin-bottom: 2px; width: 75px;" type="text" id="margin"/>
+			<br/>
+		</div>
+	</fieldset>
+	<div class="mceActionPanel">
+		<input type="submit" id="insert" name="insert" value="{#insert}" />
+		<input type="button" id="cancel" name="cancel" value="{#cancel}" onclick="tinyMCEPopup.close();" />
+	</div>
+	
+</form>
+
+</body>
+</html>
