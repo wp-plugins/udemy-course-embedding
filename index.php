@@ -2,7 +2,7 @@
 /*
 Plugin Name: Udemy Embed Plugin
 Plugin URI: http://www.udemy.com
-Description: Adds button to editor making it easy to embed a Udemy course.
+Description: Adds a button to the Wordpress editor making it easy to embed a full Udemy course.
 Author: Udemy
 Version: 1.0
 Author URI: http://www.udemy.com
